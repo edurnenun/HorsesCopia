@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ----------------------------------------------------HEADER---------------------------------------------------------------------------- */
+.Header{
+  background-image: url(./assets/horses-g035d826a3_1920.jpg);
+  height: 15em;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header-title {
+  background-color: #173A3A;
+  padding: 1em;
+  color: #939745;
+  display: inline-flex; 
+  font-family: 'Poppins', sans-serif;
+  margin: 2em;
+  /* falta tipografia tamaño */
+}
+/* mediaqueries */
+@media (max-width: 600px){
+  .Header{
+    background-size: auto;
+  }
+}
+
+/* ----------------------------------------------------FOOTER---------------------------------------------------------------------------- */
+.footer{
+  /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #939745;
+   
+}
+/* .footerFila1{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerFila2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  
+} 
+.icon{
+  margin-right: 10px;
+}
+
+/* ----------------------------------------------------APADRINA_COMPONENT---------------------------------------------------------------------------- */
+
+.section3-grid{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+  
+  color: #fff;
+  /* grid-template-columns: auto auto auto; */
+}
+.apadrina{
+  background-color: #939745;
+  width: 33.33%;
+  height: 15rem;
+  
+}
+.img-grid{
+  width: 33.33%;
+  height: 15rem;
+  background-size: cover;
+}
+.img-caballo{
+  width: 100%;
+  height: 15rem;
+  
+}
+.donacio{
+  width: 33.33%;
+  background-color: #173A3A;
+  height: 15rem;
+}
